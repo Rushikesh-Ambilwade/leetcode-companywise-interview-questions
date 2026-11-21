@@ -1,43 +1,108 @@
-# Leetcode Companywise Interview Questions
+# LeetCode Company-Wise Interview Questions
 
-![leetcode-companywise-interview-questions](https://socialify.git.ci/snehasishroy/leetcode-companywise-interview-questions/image?description=1&font=JetBrains+Mono&forks=1&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark)
+A collection of LeetCode interview questions organized company-wise to help students and software engineering aspirants prepare for technical interviews.
 
-This repository contains Company Wise Questions of LeetCode, categorized based on their recency.
+## About This Repository
 
-* Last 30 Days
-* Last 3 Months
-* Last 6 Months
-* Last 1 Year
-* All
+This repository contains coding interview questions categorized according to different companies. It is designed to help developers practice Data Structures and Algorithms (DSA) and prepare for technical interviews at product-based and service-based companies.
 
-Attributes like Difficulty, Acceptance %, Frequency % are also added to enable filtering.
+Questions are organized based on their recency:
 
-> This repository contains the snapshot as of **12th July 2026**.
->
-> If you need to sort/filter the questions based on frequency/difficulty, please clone the repo and perform operations
-> in any CSV Editor (Excel / Google Sheets / OpenOffice Calc)
+- Last 30 Days
+- Last 3 Months
+- Last 6 Months
+- Last 1 Year
+- All Questions
 
-## If you have LeetCode Premium and want to contribute back
+Additional attributes are provided to make question selection and analysis easier.
 
-* If you have LeetCode premium and want to contribute back, please clone the repo and setup the Java Project in the IDE
-  of your choice.
-* Code to scrap the solutions is
-  present [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java).
-* By default, the selenium browser will open in Edge.
-* If the selenium browser does not open, you might need to update *selenium-java* to the latest version because the
-  older versions of Selenium java can be incompatible with the existing version of Edge.
-  Run the scraper after filling in your UserName and Password [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L17), without which the code won't work.
-* Delete the existing folders so the new files does not conflict.
-* In case you get a timeout during page reloads, do increase the default timeout value
-  set [here](https://github.com/snehasishroy/leetcode-companywise-interview-questions/blob/master/src/main/java/Scraper.java#L19)
+## Features
 
-* Once the code is finished (which should take ~3 hours), create a Pull Request and I will be happy to merge it. Thank
-  you for your contribution :)
+- **Company-Wise Organization:** Questions are arranged into separate company folders.
+- **Difficulty Level:** Identify Easy, Medium, and Hard questions.
+- **Acceptance Rate:** Check the acceptance percentage of questions.
+- **Frequency:** Understand how frequently questions appear in interviews.
+- **Multiple Time Periods:** Practice questions based on different time ranges.
+- **Interview Preparation:** Useful for DSA practice and coding interview preparation.
 
-# Star History
+## Repository Structure
 
-[![Star History Chart](https://api.star-history.com/chart?repos=snehasishroy/leetcode-companywise-interview-questions&type=date&legend=top-left&sealed_token=fbsbaQ5FrWF5R-zf2kLFqSxVae8tcHcv8ZphgmDdrGoUA1OOBTu--r8o5Cwmp_8BgAVdmr0ALgaS4GkOzXQwRDwwMSlzoxQbqnLreg1PkrOoANW2bxYNmqB_eBZt72mpS4eG_8xBZ8isXJZkuf-zbT4crPpTX4mX8WdXIbz9B-FJIfZfl5BUUpUrzFiz)](https://www.star-history.com/?repos=snehasishroy%2Fleetcode-companywise-interview-questions&type=date&legend=top-left)
+```text
+leetcode-companywise-interview-questions/
+│
+├── 1kosmos/
+├── 6sense/
+├── accelya/
+├── accenture/
+├── accolite/
+├── adobe/
+├── amazon/
+├── google/
+├── microsoft/
+├── zomato/
+│
+├── src/
+├── pom.xml
+├── .gitignore
+└── README.md
+```
 
-## Happy LeetCoding. May the force be with you.
+*Note: The above folder names are examples. The repository contains additional company folders.*
 
+## How to Use This Repository
 
+1. Browse the repository.
+2. Select your target company.
+3. Open the corresponding company folder.
+4. Explore the available interview questions.
+5. Practice solving the problems on LeetCode.
+6. Track your progress and improve your problem-solving skills.
+
+## Getting Started
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Rushikesh-Ambilwade/leetcode-companywise-interview-questions.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd leetcode-companywise-interview-questions
+```
+
+## Recommended Preparation Strategy
+
+- Start with Easy-level problems.
+- Practice Arrays, Strings, Linked Lists, Stacks, and Queues.
+- Move towards Trees, Graphs, Dynamic Programming, and other advanced topics.
+- Focus on frequently asked company-specific questions.
+- Practice regularly and analyze your solutions.
+
+## Contribution
+
+Contributions and suggestions are welcome.
+
+If you find an issue or have suggestions for improving this repository, feel free to open an issue or submit a pull request.
+
+## Credits and Acknowledgement
+
+The original dataset and project structure are based on the work of **Snehasish Roy**.
+
+Original Repository:  
+https://github.com/snehasishroy/leetcode-companywise-interview-questions
+
+All credit for the original collection and its underlying data belongs to the original author.
+
+This repository is maintained as a personal learning and interview preparation resource.
+
+## Disclaimer
+
+This repository is intended for educational and interview preparation purposes only. LeetCode questions and company-related information may change over time.
+
+Always refer to the official LeetCode website for the latest problem statements.
+
+---
+
+**Happy Coding! Keep Practicing, Keep Learning, and Keep Growing.** 🚀
